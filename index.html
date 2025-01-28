@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaston Magrassi - Porfolio</title>
+    <!-- link a fonts-google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- link a bs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link al archivo de estilos  -->
+    <link rel="stylesheet" href="styles/styles.css"> 
+</head>
+<body>
+    <!-- iniciamos el div con contenedor fluid de bs -->
+    <div class="container-fluid my-bg-body">
+        <header class="row">
+            <nav class="col-12 navbar navbar-expand-lg navbar-bg p-2 fixed-top ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Elio Gaston Magrassi</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item text">
+                        <a class="nav-link" aria-current="page" href="#hero"><i class="bi bi-house-door-fill"></i>Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi"><i class="bi bi-person-fill"></i>Sobre Mí</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#proyectos"><i class="bi bi-file-code-fill"></i>Proyectos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacto"><i class="bi bi-person-lines-fill"></i>Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main class="row">
+            <section class="row hero p-0 m-0" id="hero">
+                <article class="container-fluid bg-hero align-content-center">
+                    <div class="text-center col-12 col-lg-6">
+                        <h1 class="text-shadow">¡Hola, soy Gaston Magrassi!</h1>
+                        <p class="text-shadow">--Desarrollador web especializado en HTML, CSS y Bootstrap</p>
+                    </div>
+                </article>
+            </section>
+            <section class="sobre mi row p-5 m-0 my-5 text-center" id="sobre-mi">
+                <article class="col-12 col-xl-6 align-content-center">
+                    <h2 class="text-shadow">Sobre Mí</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi animi libero laborum aliquam ad sapiente ipsum dolor nisi modi odit doloribus totam, esse veniam quo beatae est molestias amet. Possimus?</p>
+                </article>
+                <article class="col-12 col-xl-6">
+                    <img src="assets/img/img1.jpg" class="img-fliud img-sobre-mi" alt="">
+                </article>
+            </section>
+            <section class="proyectos row p-5 m-0 my-5" id="proyectos">
+                <article class="container p-0">
+                  <h2 class="row justify-content-center m-0 text-shadow">Proyectos</h2>
+                  <div class="row g-5 m-0">
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="card card-style">
+                        <img src="assets/img/img2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">StudioFit</h5>
+                          <p class="card-text">Diseño y desarrollo de una página web moderna para entrenadores personales. Incluye un sistema de reservas, un blog interactivo y perfiles personalizados para cada cliente, optimizado para dispositivos móviles.</p>
+                          <button type="button" class="btn btn-primary btn-color" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Ver mas
+                          </button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card card-style">
+                      <img src="assets/img/img3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">PetCare</h5>
+                        <p class="card-text">Creación de un e-commerce amigable con un diseño limpio y accesible. El proyecto incluyó integración de carrito de compras, pasarela de pagos segura y un sistema de recomendaciones inteligentes basado en productos populares.</p>
+                        <a href="#" class="btn btn-primary btn-color">Ver mas</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card card-style">
+                    <img src="assets/img/img4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">TravelNow</h5>
+                      <p class="card-text ">Diseño de un sitio web dinámico para una agencia de viajes, con secciones de destinos destacados, promociones y un sistema de búsqueda avanzada para vuelos y hoteles. Todo con animaciones suaves y un diseño visual impactante.</p>
+                      <a href="#" class="btn btn-primary btn-color">Ver mas</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="card card-style">
+                  <img src="assets/img/img5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Craftsy</h5>
+                    <p class="card-text">Un diseño personalizado para creativos que buscan mostrar su trabajo. Incluye una galería interactiva, un blog para compartir procesos creativos y una sección de contacto con formularios simples y funcionales.</p>
+                    <a href="#" class="btn btn-primary btn-color">Ver mas</a>
+                  </div>
+                </div>
+            </div>
+                </article>
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">StudioFit</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>El proyecto consiste en el diseño y desarrollo de una página web moderna y completamente funcional, orientada a entrenadores personales que deseen optimizar la interacción con sus clientes, gestionar reservas de manera eficiente y ofrecer contenido relevante y atractivo. El objetivo es crear una plataforma intuitiva, visualmente atractiva y completamente funcional, que permita a los entrenadores y sus clientes gestionar sus entrenamientos, horarios y comunicaciones de manera sencilla y eficaz.
+
+                          Características clave del proyecto:
+                          Sistema de Reservas en Línea: La página incluirá un sistema de reservas intuitivo, donde los clientes pueden consultar la disponibilidad de su entrenador, seleccionar el tipo de sesión (individual, en grupo, etc.), y reservar su entrenamiento. Este sistema permitirá a los entrenadores configurar su agenda según la disponibilidad, y enviar notificaciones automáticas de confirmación o recordatorio a los clientes. Además, se incluirán opciones para permitir cambios o cancelaciones de citas de manera fácil, integrándose con calendarios como Google Calendar.
+                          
+                          Blog Interactivo para Entrenadores: Para mejorar la comunicación y engagement, se desarrollará un blog interactivo donde los entrenadores pueden publicar contenido relacionado con salud, nutrición, rutinas de ejercicios y otros temas de interés. El blog incluirá funcionalidades para que los usuarios puedan comentar en las publicaciones, compartirlas en redes sociales y suscribirse para recibir actualizaciones por correo electrónico. Este espacio permitirá a los entrenadores posicionarse como expertos en su área y mantener a sus clientes informados sobre las últimas tendencias y consejos.
+                          
+                          Perfiles Personalizados para Clientes: Cada cliente tendrá su propio perfil en la página web, donde podrá consultar su historial de entrenamientos, el progreso alcanzado (mediante gráficos y estadísticas), las sesiones futuras y anteriores, así como recomendaciones personalizadas de ejercicios y nutrición. Los perfiles se actualizarán automáticamente tras cada sesión para mantener a los clientes motivados y comprometidos con su proceso de entrenamiento.
+                          
+                          Optimización para Dispositivos Móviles: La página web será completamente responsive, asegurando una experiencia de usuario óptima tanto en dispositivos de escritorio como en dispositivos móviles. Con la mayoría de los usuarios accediendo a plataformas web desde smartphones y tablets, se priorizará un diseño que se adapte a cualquier tamaño de pantalla, mejorando la facilidad de navegación y asegurando que todas las funcionalidades (como el sistema de reservas y el acceso al blog) sean igualmente accesibles desde dispositivos móviles.
+                          
+                          Diseño Visual Moderno y Funcional: Se implementará un diseño estéticamente atractivo, utilizando una paleta de colores frescos y modernos que transmitan energía y salud. La tipografía será clara y legible, adaptada para una lectura óptima en cualquier dispositivo. Además, se utilizarán elementos visuales como iconos, imágenes de alta calidad y animaciones sutiles para mejorar la experiencia de navegación.
+                          
+                          Seguridad y Privacidad: La seguridad de los datos personales de los clientes será una prioridad. Se implementarán medidas de seguridad robustas, incluyendo el cifrado de datos y el cumplimiento de las normativas de protección de datos personales (como el RGPD, en caso de ser necesario). Además, el sistema de pagos para las reservas será seguro, integrado con plataformas de pago confiables como PayPal, Stripe, entre otras.
+                          
+                          Integración con Redes Sociales: La página estará vinculada a las principales redes sociales del entrenador, lo que permitirá que los usuarios puedan compartir sus logros y experiencias, además de seguir al entrenador para recibir actualizaciones en sus plataformas preferidas. Esto facilitará la promoción del negocio y el alcance de nuevos clientes potenciales.
+                          
+                          Análisis y Reportes de Progreso: Para facilitar el seguimiento del progreso de los clientes, se incluirá una sección de análisis de datos. Esta sección mostrará estadísticas sobre el rendimiento, calorías quemadas, logros alcanzados y otros parámetros importantes. Los entrenadores podrán acceder a estos reportes para ofrecer recomendaciones personalizadas, ayudando a los clientes a mejorar de manera constante.
+                          
+                          Tecnologías y Herramientas a Utilizar:
+                          Frontend: HTML5, CSS3, JavaScript (React o Vue.js para una mejor experiencia interactiva).
+                          Backend: Node.js con Express o PHP (según las preferencias y requisitos del proyecto).
+                          Base de Datos: MySQL o MongoDB para almacenar la información de los clientes, reservas y contenido del blog.
+                          Sistema de Reservas: Integración con plataformas como Google Calendar o desarrollo personalizado con funcionalidades propias.
+                          Plataformas de Pago: PayPal, Stripe.
+                          Optimización Móvil: Diseño responsive utilizando frameworks como Bootstrap o TailwindCSS.
+                          Objetivo General:
+                          El objetivo es proporcionar una solución digital integral para entrenadores personales, que no solo facilite la gestión de sus entrenamientos y relaciones con los clientes, sino que también les permita destacar como expertos en su campo a través del contenido que ofrezcan y la interacción directa con sus clientes.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section class="contacto row p-5 m-0 my-5" id="contacto">
+                <section class="container-fluid col-12 style-form py-4">
+                  <h2 class="row justify-content-center">Contactame</h2>
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary btn-color">Sign in</button>
+                    </div>
+                  </form>
+                </section>
+            </section>
+        </main>
+
+        <footer class="row my-bg-footer">
+          <section class="container p-0 px-5">
+             <div class=" py-3 my-4 border-top">
+            <ul class="nav justify-content-center d-flex">
+              <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook"></i></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram"></i></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter-x"></i></a></li>
+            </ul>
+            <div class="col-md-12 justify-content-center d-flex">
+              <h6 class="mb-3 mb-md-0 text-body-secondary">© 2025 - Mi Portafolio. Todos los derechos reservados</h6>
+            </div>
+            
+          </div>
+          </section>
+        </footer>
+    </div>
+    
+
+
+
+
+    <!-- Link a js-bs -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>
